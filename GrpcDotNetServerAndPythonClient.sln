@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcServer.Server", "GrpcServer\GrpcServer.Server\GrpcServer.Server.csproj", "{6B9BFE5F-317D-4D74-AE0B-D2C55F794768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcServer.Client", "GrpcServer\GrpcServer.Client\GrpcServer.Client.csproj", "{5F60367A-DD7E-4682-9A02-18BCBD4BBE27}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GrpcClientPython", "GrpcClientPython\GrpcClientPython.pyproj", "{E7182785-49BF-4ACA-85B9-DD7274A9606C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B9BFE5F-317D-4D74-AE0B-D2C55F794768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9BFE5F-317D-4D74-AE0B-D2C55F794768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9BFE5F-317D-4D74-AE0B-D2C55F794768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9BFE5F-317D-4D74-AE0B-D2C55F794768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F60367A-DD7E-4682-9A02-18BCBD4BBE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F60367A-DD7E-4682-9A02-18BCBD4BBE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F60367A-DD7E-4682-9A02-18BCBD4BBE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F60367A-DD7E-4682-9A02-18BCBD4BBE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7182785-49BF-4ACA-85B9-DD7274A9606C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7182785-49BF-4ACA-85B9-DD7274A9606C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F203869-CCCD-4236-B416-8ABFB32A64C6}
+	EndGlobalSection
+EndGlobal

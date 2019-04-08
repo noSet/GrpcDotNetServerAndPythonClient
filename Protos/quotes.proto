@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package Quotes;
+
+// The greeting service definition.
+service QuotesServer {
+  // Sends a greeting
+  rpc AccessToTheMarket (Subscription) returns (stream Quote) {}
+}
+
+message Subscription {
+  string quoteType = 1;
+}
+
+message Quote {
+  string quoteType = 1;
+  string message = 2;
+}
